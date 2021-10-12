@@ -6,122 +6,531 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Bootstrap WebSite</title>
-     <!-- font awesome cdn -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-     <!-- bootstrap4 cdn -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <!-- bootstrap4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .my-link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="container">
-    <header>
-        <h1 class="bg-danger text-white py-3  text-center">Passion with Mou</h1>
-    </header>
-  
+        <header>
 
-<main>
-    <div class="lovable-section bg-primary">
-        <div class="title text-center text-light font-weight-bolder mb-3"><h3>Lovable Site</h3></div>
-    <div class="row text-white text-left text-md-center">
-        <div class="col-lg-3">
-            <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
-            <h5 class="text-uppercase">Web Designing</h5>
-            <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata tempor. Justo ipsum at
-                diam
-                diam. Diam sed et sit amet labore.</p>
 
-        </div>
-        <div class="col-lg-3">
-            <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
-            <h5 class="text-uppercase">Web Designing</h5>
-            <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata tempor. Justo ipsum at
-                diam
-                diam. Diam sed et sit amet labore.</p>
 
-        </div>
-        <div class="col-lg-3">
-            <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
-            <h5 class="text-uppercase">Web Designing</h5>
-            <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata tempor. Justo ipsum at
-                diam
-                diam. Diam sed et sit amet labore.</p>
+            <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        </div>
-        <div class="col-lg-3">
-            <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
-            <h5 class="text-uppercase">Web Designing</h5>
-            <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata tempor. Justo ipsum at
-                diam
-                diam. Diam sed et sit amet labore.</p>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Customer review</a></li>
+                    </ul>
+                </div>
 
-        </div>
-    </div>
-    </div>
-    <div class="jumbotron-section">
-        <div class="jumbotron pt-2">
 
-            <div class="title text-center mb-3 bg-light text-danger">
-                <h3 class="font-weight-bolder">About Me</h3>
+
+
+            </nav>
+
+
+
+            <!-- <div class="row">
+                <div class="col-lg-4 m-auto">
+                    <h1 class="text-white text-center p-2">Passion with Mou</h1>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="nav justify-content-center p-3">
+                        <li class="nav-item"><a class="my-link nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item"><a class="my-link nav-link text-white" href="#">About me</a></li>
+                        <li class="nav-item"><a class="my-link nav-link text-white" href="#">Customer review</a></li>
+                    </ul>
+
+                </div>
+            </div> -->
+        </header>
+
+
+        <main>
+            <div class="lovable-section bg-primary">
+                <div class="title text-center text-light font-weight-bolder mb-3">
+                    <h3>Lovable Site</h3>
+                </div>
+                <div class="row text-white text-left text-md-center">
+                    <div class="col-lg-3">
+                        <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
+                        <h5 class="text-uppercase">Web Designing</h5>
+                        <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata
+                            tempor. Justo ipsum at
+                            diam
+                            diam. Diam sed et sit amet labore.</p>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
+                        <h5 class="text-uppercase">Web Designing</h5>
+                        <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata
+                            tempor. Justo ipsum at
+                            diam
+                            diam. Diam sed et sit amet labore.</p>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
+                        <h5 class="text-uppercase">Web Designing</h5>
+                        <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata
+                            tempor. Justo ipsum at
+                            diam
+                            diam. Diam sed et sit amet labore.</p>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bg-white p-2 mb-3 text-danger fa-2x rounded-circle fas fa-hand-holding-heart"></i>
+                        <h5 class="text-uppercase">Web Designing</h5>
+                        <p class=" text-italic">Dolor dolor magna sed et dolore kasd justo. Est sit takimata et takimata
+                            tempor. Justo ipsum at
+                            diam
+                            diam. Diam sed et sit amet labore.</p>
+
+                    </div>
+                </div>
             </div>
-            
-<div class="row bg-danger pt-3 text-white">
-   
-<div class="col-lg-4 text-center ">
-    <img class="rounded-circle "src="images/mou.jpeg"height="200" width="200" alt="">
-</div>
+            <div class="jumbotron-section">
+                <div class="jumbotron pt-2">
 
-<div class="col-lg-8 ">
-    <p>At vero et invidunt lorem diam amet rebum est et voluptua. Est sit et no amet takimata est voluptua sit gubergren, diam sed justo rebum diam stet dolore sed eirmod sed. Kasd dolor at eos justo sea ea voluptua clita. Sed magna sea no aliquyam. Rebum diam et diam eos sea sea ut. Erat est et dolor sed sea. Eirmod ipsum ut rebum dolores eirmod lorem clita ipsum, consetetur eirmod dolor consetetur labore invidunt kasd eos. Gubergren eirmod gubergren labore et sanctus ipsum sanctus, lorem sed et voluptua dolor ea. Stet et et nonumy no eirmod at ut, dolor ut.</p>
+                    <div class="title text-center mb-3 bg-light text-danger">
+                        <h3 class="font-weight-bolder">About Me</h3>
+                    </div>
 
-    
-     <div class="alert alert-success alert-dismissible">
-        <button class="close" data-dismiss="alert"> &times;</button>
-         Have you visited my youtube channel? <a href="https://www.facebook.com">Visit her</a>
-     </div>
-</div>
+                    <div class="row bg-danger pt-3 text-white">
+
+                        <div class="col-lg-4 text-center ">
+                            <img class="rounded-circle " src="images/mou.jpeg" style="height: 200px ;  width: 200px ;"
+                                alt="">
+                        </div>
+
+                        <div class="col-lg-8 ">
+                            <p>La me grupos para brooklyn tierra mármol sepultura perfil al el. Criaturas las celeste
+                                duro lo tierra los de con por. Manos con de el en la buscando. El desnudo donde la los
+                                es. El sólo de el queman. </p>
+
+                            <a class="d-block mb-3 text-primary font-weight-bolder" data-toggle="collapse"
+                                href="#demo">Learn more...</a>
+                            <div id="demo" class="collapse">
+                                <p>La me grupos para brooklyn tierra mármol sepultura perfil al el. Criaturas las
+                                    celeste duro lo tierra los de con por. Manos con de el en la buscando. El desnudo
+                                    donde la los es. El sólo de el queman. Bajaba y pisotean a los, la los de manteles
+                                    luna loca quemadas que, latido luna las quemadas de grupos criaturas perfil
+                                    buscando. Quedo ballenas la mudas el convexa de que. De gustada de todo bajo loca
+                                    arroyo las, atrás venas se la cosas. Piel es resonancia bajaba viciosa. Pupila de
+                                    donde el la con húmedo nube, y brooklyn la borrachos vacía inocentes escaleras que,
+                                    la y en vuelve faraón. Mi en del la ballenas me, desgarrados es el paso entonces
+                                    los, sensitivo los término mi las bajaba arroyo arcos. Vilo quedo sin criaturas para
+                                    la manecitas, de se grupos por que grupos. Criaturas pulso las queman los pisan
+                                    sepultura resonancia. La pasan pupila ilesa por baile ni. Los donde nino torre duro,
+                                    los aire quedo larga luna tierra término donde fría pupila, olvidando los heridas
+                                    abrir es helechos el. Lenta convexa gustada sangre las desnudo luna, de me
+                                    desgarrados que ciudades para sepultura queman es. Los manos por donde aire es abrir
+                                    torre donde. Tierra que tu los mármol donde bajo el entonces. Desnudo diana no las
+                                    musgos de. Cosas mi y los los que fría, es me helechos pisotean me que se
+                                    estremecidos los, los al plata manos nino abierta de gustada tierra, brooklyn
+                                    término mi la con muerte bajo.</p>
+                            </div>
+
+                            <button class="btn btn-outline-info mb-3">CV Download</button>
 
 
-</div>
-
-    
-
-
-</div>
-
-
-</div>
-
-<div class="customer-review text-success text-center">
+                            <div class="alert alert-success alert-dismissible">
+                                <button class="close" data-dismiss="alert"> &times;</button>
+                                Have you visited my youtube channel? <a href="https://www.facebook.com">Visit her</a>
+                            </div>
+                        </div>
 
 
-    <div class="title  mb-3 bg-light ">
-        <h3 class="font-weight-bolder">Customer Review</h3>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+ <!-- education section starts here -->
+ <div class="education-section my-5">
+    <div class="title text-center mb-3">
+        <h3 class="font-weight-bolder">Education</h3>
     </div>
-    <div class="row">
-<div class=" col-lg-4">
-   <blockquote class="blockquote ">
-       <i class="p-2 fa-3x fas fa-user-circle"> </i>
-    <p >Magna dolore erat tempor sed tempor amet. Elitr dolore tempor et voluptua nonumy consetetur tempor, invidunt consetetur dolor rebum eos labore accusam clita, ea kasd erat labore sed. Diam diam ipsum kasd sed labore erat no, elitr accusam at takimata dolor ipsum sea ut dolor rebum. Dolore amet sanctus sea,<abbr title="Bootstrap is so much enjoing framework">bs4</abbr></p>
-<footer class="blockquote-footer ">
-Sultana Mou in <cite>Facebook</cite>
-
-</footer>
-   </blockquote>
+    <table class="table table-striped table-bordered table-hover table-info text-center">
+        <thead>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Passing Year</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SSC</td>
+                <td>Singerkatch high school and College</td>
+                <td>2006</td>
+                <td>3.44 / 5.00 </td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>Singerkatch high school and College</td>
+                <td>2008</td>
+                <td>3.70 / 5.00 </td>
+            </tr>
+            <tr>
+                <td>BSc in CSE</td>
+                <td>Singerkatch high school and College</td>
+                <td>2017</td>
+                <td>3.92 / 4.00 </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+<!-- education section ends here -->
+            <div class="card-section text-center text-primary">
 
+                <div class="title  mb-3 bg-light ">
+                    <h3 class="font-weight-bolder">Winter Secenerio</h3>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="card"><img class="card-img-top"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlapGn7FjdQwGE7W8FKHKbaGPXZYrdpCkG2w&usqp=CAU"
+                                alt="winter">
+                            <div class="card-body">
+
+                                <h4 class="card-title">Winter Season</h4>
+                                <p class="card-text justify-content-center">Coffined he heralds condemned isle loathed
+                                    he lowly, worse relief but gild artless departed than which of, flash oh scene save
+                                    in her are in, scarce flaunting flatterers a with. </p>
+                                <a class="card-link stretched-link" target="_blank"
+                                    href="https://www.youtube.com/watch?v=hXNglSpEv5Q&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG&index=15">Visit
+                                    here</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card"><img class="card-img-top"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlapGn7FjdQwGE7W8FKHKbaGPXZYrdpCkG2w&usqp=CAU"
+                                alt="winter">
+                            <div class="card-body">
+
+                                <h4 class="card-title">Winter Season</h4>
+                                <p class="card-text justify-content-center">Coffined he heralds condemned isle loathed
+                                    he lowly, worse relief but gild artless departed than which of, flash oh scene save
+                                    in her are in, scarce flaunting flatterers a with. </p>
+                                <a class="card-link stretched-link" target="_blank"
+                                    href="https://www.youtube.com/watch?v=hXNglSpEv5Q&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG&index=15">Visit
+                                    here</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card"><img class="card-img-top"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlapGn7FjdQwGE7W8FKHKbaGPXZYrdpCkG2w&usqp=CAU"
+                                alt="winter">
+                            <div class="card-body">
+
+                                <h4 class="card-title">Winter Season</h4>
+                                <p class="card-text justify-content-center">Coffined he heralds condemned isle loathed
+                                    he lowly, worse relief but gild artless departed than which of, flash oh scene save
+                                    in her are in, scarce flaunting flatterers a with. </p>
+                                <a class="card-link stretched-link" target="_blank"
+                                    href="https://www.youtube.com/watch?v=hXNglSpEv5Q&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG&index=15">Visit
+                                    here</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card"><img class="card-img-top"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlapGn7FjdQwGE7W8FKHKbaGPXZYrdpCkG2w&usqp=CAU"
+                                alt="winter">
+                            <div class="card-body">
+
+                                <h4 class="card-title">Winter Season</h4>
+                                <p class="card-text justify-content-center">Coffined he heralds condemned isle loathed
+                                    he lowly, worse relief but gild artless departed than which of, flash oh scene save
+                                    in her are in, scarce flaunting flatterers a with. </p>
+                                <a class="card-link stretched-link" target="_blank"
+                                    href="https://www.youtube.com/watch?v=hXNglSpEv5Q&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG&index=15">Visit
+                                    here</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="customer-review text-success text-center">
+
+
+                <div class="title  mb-3 bg-light ">
+                    <h3 class="font-weight-bolder">Customer Review</h3>
+                </div>
+                <div class="row">
+                    <div class=" col-lg-4">
+                        <blockquote class="blockquote ">
+                            <i class="p-2 fa-3x fas fa-user-circle"> </i>
+                            <p>Magna dolore erat tempor sed tempor amet. Elitr dolore tempor et voluptua nonumy
+                                consetetur tempor, invidunt consetetur dolor rebum eos labore accusam clita, ea kasd
+                                erat labore sed. Diam diam ipsum kasd sed labore erat no, elitr accusam at takimata
+                                dolor ipsum sea ut dolor rebum. Dolore amet sanctus sea,<abbr
+                                    title="Bootstrap is so much enjoing framework">bs4</abbr></p>
+                            <footer class="blockquote-footer ">
+                                Sultana Mou in <cite>Facebook</cite>
+
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class=" col-lg-4">
+                        <blockquote class="blockquote ">
+                            <i class="p-2 fa-3x fas fa-user-circle"> </i>
+                            <p>Magna dolore erat tempor sed tempor amet. Elitr dolore tempor et voluptua nonumy
+                                consetetur tempor, invidunt consetetur dolor rebum eos labore accusam clita, ea kasd
+                                erat labore sed. Diam diam ipsum kasd sed labore erat no, elitr accusam at takimata
+                                dolor ipsum sea ut dolor rebum. Dolore amet sanctus sea,<abbr
+                                    title="Bootstrap is so much enjoing framework">bs4</abbr></p>
+                            <footer class="blockquote-footer ">
+                                Sultana Mou in <cite>Facebook</cite>
+
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class=" col-lg-4">
+                        <blockquote class="blockquote ">
+                            <i class="p-2 fa-3x fas fa-user-circle"> </i>
+                            <p>Magna dolore erat tempor sed tempor amet. Elitr dolore tempor et voluptua nonumy
+                                consetetur tempor, invidunt consetetur dolor rebum eos labore accusam clita, ea kasd
+                                erat labore sed. Diam diam ipsum kasd sed labore erat no, elitr accusam at takimata
+                                dolor ipsum sea ut dolor rebum. Dolore amet sanctus sea,<abbr
+                                    title="Bootstrap is so much enjoing framework">bs4</abbr></p>
+                            <footer class="blockquote-footer ">
+                                Sultana Mou in <cite>Facebook</cite>
+
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="student-section">
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#skill">Skill</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#hobby">Hobby</a></li>
+
+                </ul>
+                <div class="tab-content">
+                    <div id="edu" class="tab-pane active">
+                        <p>1. Dolores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+                    <div id="skill" class="tab-pane fade">
+                        <p>2. Molores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+                    <div id="hobby" class="tab-pane fade">
+                        <p>3. Bolores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link active" href="#edu">Education</a></li>
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">Skill</a></li>
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+
+                </ul>
+                <div class="tab-content">
+                    <div id="edu" class="tab-pane active">
+                        <p>1. Dolores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+                    <div id="skill" class="tab-pane fade">
+                        <p>2. Molores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+                    <div id="hobby" class="tab-pane fade">
+                        <p>3. Bolores sit duo aliquyam diam sit sed, sadipscing ipsum accusam kasd labore sit invidunt
+                            stet, erat eirmod et dolore dolores et et erat, sadipscing amet ea duo dolor ipsum kasd.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="media-section">
+                <div class="title text-center bg-light ">
+                    <h3 class="font-weight-bolder">My Blogs</h3>
+                </div>
+
+                <div class="media border mt-3 p-3">
+                    <img style="width:80px;height:80px;" class="rounded-circle mr-3" src="images/mou.jpeg" alt="">
+                    <div class="media-body">
+                        <h5>I love learning Programme</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste placeat asperiores repudiandae.
+                            Facilis optio itaque maiores voluptatem excepturi rem quod.</p>
+                    </div>
+
+                </div>
+
+                <div class="media border mt-3  p-3">
+
+                    <div class="media-body">
+                        <h5>I love learning Programme</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste placeat asperiores repudiandae.
+                            Facilis optio itaque maiores voluptatem excepturi rem quod.</p>
+                    </div>
+                    <img style="width:80px;height:80px;" class="rounded-circle mr-3" src="images/mou.jpeg" alt="">
+                </div>
+                
+                <div class="media border mt-3 p-3">
+                    <img style="width:80px;height:80px;" class="rounded-circle mr-3 align-self-center" src="images/mou.jpeg" alt="">
+                    <div class="media-body">
+                        <h5>I love learning Programme</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste placeat asperiores repudiandae.
+                            Facilis optio itaque maiores voluptatem excepturi rem quod.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem perspiciatis totam. Aperiam aut, nobis omnis quibusdam, quidem dolor esse rerum sint molestias accusamus similique quasi beatae ipsum quis soluta velit provident, nemo numquam! Nesciunt eligendi a quibusdam ducimus enim veritatis accusamus consectetur libero modi asperiores, at repudiandae animi officiis.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="student-group">
+                <ul class="list-group">
+                    <li class="list-group-item  bg-secondary text-white ">Abid</li>
+                    <li class="list-group-item bg-primary text-white ">Nabid</li>
+                    <li class="list-group-item bg-success text-white ">Labid</li>
+                </ul>
+
+
+
+            </div>
+
+<div class="contact-section">
+
+<div class="title text-center bg-light text-success ">
+                    <h3 class="font-weight-bolder">Contact Me</h3>
+                </div>
+
+
+    <form action="" class="w-50 was-validated m-auto p-3 bg-success text-white">
+<div class="form-group">
+<label for="fullname">Fullname</label>
+<input type="text"  class="form-control" name="fullname" required>
+<div class="valid-feedback">Valid</div>
+<div class="invalid-feedback">Please enter your fullname as soon as possible</div>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="text"  class="form-control"name="email">
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea style="resize:none;"  class="form-control" name="message" id="" cols="30" rows="10"></textarea>
+</div>
+<div class="form-group text-center">
+    <input type="submit" class="btn btn-warning text-white font-weight-bolder" value="submit" >
+    <input type="reset" class="btn btn-warning text-white font-weight-bolder"  value="reset" >
     </div>
 
-</div>
-</main>
 
-    <footer>
 
-    </footer>
+
+
+
+
+
+    </form>
+
+
+
+
+
 </div>
+
+        </main>
+
+        <footer class=" bg-dark">
+            <ui class="pagination py-3 justify-content-center ">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li><a class="page-link" href="#">2</a></li>
+                <li><a class="page-link" href="#">3</a></li>
+                <li><a class="page-link" href="#">4</a></li>
+            </ui>
+
+        </footer>
+    </div>
     <!-- bootstrap js, jquery, popper -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
